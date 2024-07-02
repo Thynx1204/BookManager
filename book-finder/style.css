@@ -1,0 +1,94 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+body, html {
+    font-size: 16px;
+    font-family: 'Poppins',sans-serif;
+    background: linear-gradient(135deg, #c4f61f1e, #47af0700);
+    height: 100vh;
+}
+
+.app {
+    width: 100%;
+    max-width: 900px;
+    padding: 40px 30px 70px;
+    margin: 100px auto 50px;
+    border-radius: 10px ;
+    background: #13b1dd;
+    text-align: center;
+}
+  
+.app h1,h2 {
+    color: #002765;
+    font-size: 25px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.search{
+    margin-bottom: 20px;
+}
+
+#search-input{
+    background-color: rgb(12, 215, 246);
+    font-size: 25px;
+    padding: 10px;
+    margin-right: 10px;
+  
+}
+
+#search-button {
+    font-size: 25px;
+    padding: 10px 20px;
+}
+
+.books-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.book {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 200px;
+    text-align: left;
+}
+
+.book img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.book h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.book p {
+    font-size: 14px;
+    color: #555;
+}
+
+.book button {
+    background-color: #002765;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.book button:hover {
+    background-color: #0047b3;
+}
